@@ -10,3 +10,5 @@ function twoSum(nums, target) {
     numDict[nums[i]] = i;
   }
 }
+
+console.log(twoSum([2, 4, 5, 6, 7, 9], 11));
